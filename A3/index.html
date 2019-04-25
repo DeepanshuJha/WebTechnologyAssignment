@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Form Validation</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <h1>Form Validation Through JavaScript</h1>
+            </div>
+            <div id="content">
+                <form onsubmit="return validation()" novalidate>
+                    <div id="form-control">
+                        <p id="label">First Name</p>
+                        <input type="text" id="firstName" name="firstName">
+                        <p id="error" class="error"></p>    
+                    </div>
+                    <div id="form-control">
+                        <p id="label">Last Name</p>
+                        <input type="text" id="lastName" name="lastName">
+                        <p id="error" class="error"></p>
+                    </div>
+                    <div id="form-control">
+                         <p id="label">ID</p>    
+                        <input type="text" id="userId" name="userId">
+                        <p id="error" class="error"></pn>
+                    </div>
+                    <div id="form-control">
+                         <p id="label">Email</p>    
+                        <input type="text" id="email" name="email">
+                        <p id="error" class="error"></p>
+                    </div>
+                    <div id="form-control">
+                         <p id="label">Phone No</p>    
+                        <input type="text" id="phoneNumber" name="phoneNumber">
+                        <p id="error" class="error"></p>
+                    </div>
+                    <div id="form-control">
+                         <p id="label">Address</p>    
+                        <input type="text" id="address" name="address">
+                        <p id="error" class="error"></p>
+                    </div>
+                    <div id="form-control">
+                         <p id="label">Password</p>    
+                        <input type="password" id="password" name="password">
+                        <p id="error" class="error"></p>
+                    </div>
+                    <div id="form-control">
+                         <p id="label">Confirm Password</p> 
+                        <input type="password" id="confirmPassword" name="confirmPassword">
+                        <p id="error" class="error"></p>
+                    </div>
+                    <input class="" id="btn" type="submit" name="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+        <script src="validate.js"></script>
+    </body>
+</html>

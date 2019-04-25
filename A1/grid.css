@@ -1,0 +1,138 @@
+* {
+    margin : 0;
+    font-family : Helvetica, Arial, sans-serif;
+}
+
+#container {
+    height : 650px;
+    width : 600px;
+    margin : auto;
+}
+
+#header {
+    background-color : #66CCFF;
+    padding : 5px;
+    text-align: center;
+    animation-name: header;
+    animation-duration : 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes header {
+    0%      {opacity : 0}
+    100%    {opacity : 1}
+}
+
+#content {
+    background-color : #FFF;
+    height : 90%;
+    width : 580px;
+    margin-top : 20px;
+    margin-left : auto;
+    margin-right : auto;
+}
+
+#block1 {
+    background-color : yellow;
+    height: 150px;;
+    width : 180px;
+    position : relative;
+    top : 20px;
+    margin-left : 10px;
+    float : left;
+    animation-name: block1;
+    animation-duration : 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes block1 {
+    0%      {left: -1000px}
+    100%    {left: 0}
+}
+
+#block1:hover {
+    background-color :red;
+    transition : 1s;
+}
+
+#block2 {
+    width : 360px;
+    background-color : orange;
+    height : 150px;
+    position : relative;
+    top : 60px;
+    left : 10px;
+    float : left;
+}
+
+#block2:hover{
+    background-color : #66CCFF;
+    transition : 1s;
+}
+
+#block3 {
+    width : 180px;
+    height : 150px;
+    background-color : red;
+    position : relative;
+    top : 60px;
+    right: 10px;
+    float : right;
+}
+
+#block3:hover {
+    background-color : yellow;
+    transition : 1s;
+}
+
+#block4 {
+    width : 180px;
+    height : 150px;
+    background-color : red;
+    position : relative;
+    top : 100px;
+    left: 10px;
+    float : left;
+}
+
+#block4:hover {
+    background-color : orange;
+    transition : 1s;
+}
+
+#block5 {
+    width : 360px;
+    height : 150px;
+    background-color : blue;;
+    position : relative;
+    top : 100px;
+    float : right;
+    right : 10px;
+}
+
+#block5:hover {
+    background-color : yellow;
+    transition : 1s;
+}
+
+a {
+    text-decoration : none;
+    color : #000;
+    padding : 5px;
+    background-color : white;   
+    border-radius : 10px;
+}
+
+a:hover {
+    color : #66CCFF;
+}
+
+p {
+    margin : 0;
+    float : right;
+}
+
+#footer {
+    background-color : #999;
+    padding: 10px;
+}
